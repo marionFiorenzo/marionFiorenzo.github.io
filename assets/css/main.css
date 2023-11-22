@@ -1766,9 +1766,10 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #b2b2b2;
+		color: #969696;
 		position: relative;
 		margin: 0 0 1.5em 0;
+		text-align: justify;
 	}
 
 	header h2 + p {
@@ -2226,7 +2227,7 @@ input, select, textarea {
 		}
 
 			ul.labeled-icons li:first-child {
-				margin-top: 0;
+				margin-top: 1.5em;
 			}
 
 			ul.labeled-icons li a {
