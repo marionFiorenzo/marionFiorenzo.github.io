@@ -131,7 +131,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -472,15 +472,18 @@ input, select, textarea {
 		}
 
 			.row.gtr-50 > * {
-				padding: 0 0 0 1.25em;
+				padding: 0 0 0 0;
+				
 			}
 
 			.row.gtr-50.gtr-uniform {
 				margin-top: -1.25em;
+				
 			}
 
 				.row.gtr-50.gtr-uniform > * {
 					padding-top: 1.25em;
+					width: 100%;
 				}
 
 		.row {
@@ -1772,7 +1775,7 @@ input, select, textarea {
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 1.2em;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -2226,7 +2229,7 @@ input, select, textarea {
 		}
 
 			ul.labeled-icons li:first-child {
-				margin-top: 1.5em;
+				margin-top: 0;
 			}
 
 			ul.labeled-icons li a {
@@ -2257,7 +2260,7 @@ input, select, textarea {
 
 		ul.actions li {
 			padding-left: 0;
-			margin: 0.2em;
+			margin: 0.2em 0.2em 1.5em 0.2em;
 		}
 
 		ul.actions.special {
@@ -2568,12 +2571,12 @@ input, select, textarea {
 		}
 
 		.work-item h3 {
-			font-size: 1em;
+			font-size: 1.2em;
 			margin: 0 0 1em 0;
 		}
 
 		.work-item p {
-			font-size: 0.8em;
+			font-size: 1em;
 			line-height: 1.5em;
 			margin: 0 0 1.5em 0;
 		}
@@ -2695,9 +2698,9 @@ input, select, textarea {
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			border-top: solid 3px #eaeaea;
+			margin: 2em 0 0 0;
+			padding: 2em 0 0 0;
 		}
 
 			#main > section:first-child {
