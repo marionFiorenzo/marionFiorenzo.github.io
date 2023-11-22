@@ -2222,6 +2222,7 @@ input, select, textarea {
 			margin: 1.5em 0 0 0;
 			padding-left: 2.25em;
 			position: relative;
+			text-align: left;
 		}
 
 			ul.labeled-icons li:first-child {
