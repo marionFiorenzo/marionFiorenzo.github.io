@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: rgb(72, 164, 129);
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: rgb(93, 197, 157) !important;
 			text-decoration: none;
 		}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #808080;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -297,6 +297,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		text-align: center;
 	}
 
 		.row > * {
@@ -700,7 +701,7 @@ input, select, textarea {
 						padding: 0 0 0 0.625em;
 					}
 
-					.row.gtr-25.gtr-uniform {
+				sectioisadawdsadwadasdwadwadasd	.row.gtr-25.gtr-uniform {
 						margin-top: -0.625em;
 					}
 
@@ -1817,7 +1818,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #f0f0f0;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1826,6 +1827,7 @@ input, select, textarea {
 		padding: 0 0.75em;
 		text-decoration: none;
 		width: 100%;
+		resize: vertical
 	}
 
 		input[type="text"]:invalid,
@@ -2126,7 +2128,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 70%;
 		}
 
 			.image.fit img {
@@ -2205,7 +2207,7 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
-				font-size: 1.5em;
+				font-size: 1.75em;
 			}
 
 /* Labeled Icons */
@@ -2245,16 +2247,15 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-block;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin: auto;
 		padding-left: 0;
 	}
 
 		ul.actions li {
-			padding: 0 0 0 1em;
-			vertical-align: middle;
+			padding: 0;
 		}
 
 		ul.actions.special {
@@ -2458,6 +2459,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		margin: 0 0 0 0;
 	}
 
 		input[type="submit"]:hover,
@@ -2472,7 +2474,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
+			background-color: rgb(63, 192, 155);
 			border-color: #49bf9d;
 			color: #49bf9d !important;
 		}
@@ -2555,21 +2557,23 @@ input, select, textarea {
 
 	.work-item {
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 		.work-item .image {
-			margin: 0 0 1.5em 0;
+			margin: auto;
+			margin-bottom: 1.5em;
 		}
 
 		.work-item h3 {
 			font-size: 1em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.work-item p {
 			font-size: 0.8em;
 			line-height: 1.5em;
-			margin: 0;
+			margin: 0 0 2em 0;
 		}
 
 /* Header */
@@ -2640,7 +2644,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 7em;
+			width: 9em;
 		}
 
 /* Footer */
@@ -2988,6 +2992,10 @@ input, select, textarea {
 				font-size: 13pt;
 			}
 
+			ul.icons li .icon {
+				font-size: 1.1em;
+			}
+
 	}
 
 /* Large */
@@ -3018,7 +3026,7 @@ input, select, textarea {
 			#footer .copyright li {
 				border-left-width: 0;
 				display: block;
-				line-height: 2.25em;
+				line-height: 1.25em;
 				margin-left: 0;
 				padding-left: 0;
 			}
@@ -3030,6 +3038,10 @@ input, select, textarea {
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
+			}
+
+			ul.icons li .icon {
+				font-size: 1.1em;
 			}
 
 	}
@@ -3047,7 +3059,7 @@ input, select, textarea {
 		/* List */
 
 			ul.icons li .icon {
-				font-size: 1.25em;
+				font-size: 1.2em;
 			}
 
 		/* Header */
