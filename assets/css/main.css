@@ -3071,7 +3071,6 @@ input, select, textarea {
 
 			ul.icons li .icon {
 				font-size: 1.2em;
-				justify-content: center;
 			}
 
 			ul.labeled-icons li{
@@ -3178,6 +3177,7 @@ input, select, textarea {
 
 			ul.labeled-icons li {
 				padding-left: 2em;
+				text-align: left;
 			}
 
 				ul.labeled-icons li h3 {
