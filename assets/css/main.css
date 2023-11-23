@@ -2664,10 +2664,11 @@ input, select, textarea {
 
 	#footer .copyright {
 		color: rgba(255, 255, 255, 0.4);
-		font-size: 0.9em;
+		font-size: 0.85em;
 		list-style: none;
 		margin: 1em 0 0 0;
 		padding: 0;
+		justify-content: center;
 	}
 
 		#footer .copyright li {
@@ -3036,6 +3037,11 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
+			#footer .icons{
+				display: flex;
+				justify-content: right;
+			}
+
 		/* Main */
 
 			#main {
@@ -3065,8 +3071,13 @@ input, select, textarea {
 
 			ul.icons li .icon {
 				font-size: 1.2em;
+				justify-content: center;
 			}
 
+			ul.labeled-icons li{
+				text-align: left;
+			}
+			
 		/* Header */
 
 			#header {
@@ -3109,6 +3120,8 @@ input, select, textarea {
 
 				#footer .icons {
 					margin: 0 0 1em 0;
+					display: flex;
+					justify-content: center;
 				}
 
 				#footer .copyright {
