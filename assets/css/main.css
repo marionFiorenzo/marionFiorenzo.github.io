@@ -2562,7 +2562,7 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: auto;
+		margin: center;
 		text-align: center;
 	}
 
